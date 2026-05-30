@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.5 on win32)" generated="2026-05-30T11:53:01.611016" rpa="false" schemaversion="5">
+<suite id="s1" name="ExemplosEscoposVariaveis" source="C:\VariaveisEscoposArgumentos\ExemplosEscoposVariaveis.robot">
+<test id="s1-t1" name="Caso de teste de exemplo 01" line="9">
+<kw name="Uma keyword qualquer 01">
+<kw name="Generate Random String" owner="String">
+<msg time="2026-05-30T11:53:01.924835" level="INFO">${GLOBAL_CRIADA_EM_TEMPO_EXECUCAO} = sGuQO346</msg>
+<var>${GLOBAL_CRIADA_EM_TEMPO_EXECUCAO}</var>
+<doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
+<status status="PASS" start="2026-05-30T11:53:01.924416" elapsed="0.000504"/>
+</kw>
+<kw name="Set Global Variable" owner="BuiltIn">
+<msg time="2026-05-30T11:53:01.927601" level="INFO">${GLOBAL_CRIADA_EM_TEMPO_EXECUCAO} = sGuQO346</msg>
+<arg>${GLOBAL_CRIADA_EM_TEMPO_EXECUCAO}</arg>
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<status status="PASS" start="2026-05-30T11:53:01.926119" elapsed="0.001661"/>
+</kw>
+<kw name="Set Suite Variable" owner="BuiltIn">
+<msg time="2026-05-30T11:53:01.929246" level="INFO">${SUITE_CRIADA_EM_TEMPO_EXECUCAO} = Variável da suíte</msg>
+<arg>${SUITE_CRIADA_EM_TEMPO_EXECUCAO}</arg>
+<arg>Variável da suíte</arg>
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<status status="PASS" start="2026-05-30T11:53:01.928073" elapsed="0.001244"/>
+</kw>
+<kw name="Set Test Variable" owner="BuiltIn">
+<msg time="2026-05-30T11:53:01.930572" level="INFO">${TESTE_01} = Variável do teste 01</msg>
+<arg>${TESTE_01}</arg>
+<arg>Variável do teste 01</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="PASS" start="2026-05-30T11:53:01.929499" elapsed="0.001145"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-05-30T11:53:01.931184" level="INFO">Variável do teste 01</msg>
+<arg>${TESTE_01}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-05-30T11:53:01.930819" elapsed="0.000433"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2026-05-30T11:53:01.931720" level="INFO">${LOCAL} = Variável local da keyword 01</msg>
+<var>${LOCAL}</var>
+<arg>Variável local da keyword 01</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2026-05-30T11:53:01.931394" elapsed="0.000360"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-05-30T11:53:01.932126" level="INFO">Variável local da keyword 01</msg>
+<arg>${LOCAL}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-05-30T11:53:01.931873" elapsed="0.000298"/>
+</kw>
+<status status="PASS" start="2026-05-30T11:53:01.922450" elapsed="0.009807"/>
+</kw>
+<kw name="Uma keyword qualquer 02">
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2026-05-30T11:53:01.933937" level="INFO">${LOCAL} = Variável local da keyword 02</msg>
+<var>${LOCAL}</var>
+<arg>Variável local da keyword 02</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2026-05-30T11:53:01.933456" elapsed="0.000537"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-05-30T11:53:01.934504" level="INFO">Variável local da keyword 02</msg>
+<arg>${LOCAL}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-05-30T11:53:01.934170" elapsed="0.000403"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-05-30T11:53:01.935152" level="INFO">Minha variável GLOBAL_INSTANCIADA foi instanciada para a suíte / sGuQO346 / Variável da suíte / Variável local da keyword 02</msg>
+<arg>${GLOBAL_INSTANCIADA} / ${GLOBAL_CRIADA_EM_TEMPO_EXECUCAO} / ${SUITE_CRIADA_EM_TEMPO_EXECUCAO} / ${LOCAL}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-05-30T11:53:01.934721" elapsed="0.000491"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-05-30T11:53:01.935611" level="INFO">Variável do teste 01</msg>
+<arg>${TESTE_01}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-05-30T11:53:01.935334" elapsed="0.000331"/>
+</kw>
+<status status="PASS" start="2026-05-30T11:53:01.932848" elapsed="0.002906"/>
+</kw>
+<status status="PASS" start="2026-05-30T11:53:01.921089" elapsed="0.016341"/>
+</test>
+<test id="s1-t2" name="Caso de teste de exemplo 02" line="13">
+<kw name="Uma keyword qualquer 02">
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2026-05-30T11:53:01.986964" level="INFO">${LOCAL} = Variável local da keyword 02</msg>
+<var>${LOCAL}</var>
+<arg>Variável local da keyword 02</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2026-05-30T11:53:01.986474" elapsed="0.000547"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-05-30T11:53:01.987574" level="INFO">Variável local da keyword 02</msg>
+<arg>${LOCAL}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-05-30T11:53:01.987204" elapsed="0.000437"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-05-30T11:53:01.988198" level="INFO">Minha variável GLOBAL_INSTANCIADA foi instanciada para a suíte / sGuQO346 / Variável da suíte / Variável local da keyword 02</msg>
+<arg>${GLOBAL_INSTANCIADA} / ${GLOBAL_CRIADA_EM_TEMPO_EXECUCAO} / ${SUITE_CRIADA_EM_TEMPO_EXECUCAO} / ${LOCAL}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-05-30T11:53:01.987776" elapsed="0.000486"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-05-30T11:53:01.989373" level="FAIL">Variable '${TESTE_01}' not found.</msg>
+<arg>${TESTE_01}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="FAIL" start="2026-05-30T11:53:01.988393" elapsed="0.001043">Variable '${TESTE_01}' not found.</status>
+</kw>
+<status status="FAIL" start="2026-05-30T11:53:01.986039" elapsed="0.003579">Variable '${TESTE_01}' not found.</status>
+</kw>
+<kw name="Uma keyword qualquer 03">
+<status status="NOT RUN" start="2026-05-30T11:53:01.995692" elapsed="0.000064"/>
+</kw>
+<status status="FAIL" start="2026-05-30T11:53:01.968344" elapsed="0.053101">Variable '${TESTE_01}' not found.</status>
+</test>
+<test id="s1-t3" name="Caso de teste de exemplo 03" line="17">
+<kw name="Uma keyword qualquer 04">
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2026-05-30T11:53:02.154485" level="INFO">${LOCAL} = Variável local da keyword 04</msg>
+<var>${LOCAL}</var>
+<arg>Variável local da keyword 04</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2026-05-30T11:53:02.152856" elapsed="0.004242"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-05-30T11:53:02.163319" level="INFO">Variável local da keyword 04</msg>
+<arg>${LOCAL}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-05-30T11:53:02.161027" elapsed="0.002504"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-05-30T11:53:02.167947" level="INFO">Minha variável GLOBAL_INSTANCIADA foi instanciada para a suíte / sGuQO346 / Variável da suíte / Variável local da keyword 04</msg>
+<arg>${GLOBAL_INSTANCIADA} / ${GLOBAL_CRIADA_EM_TEMPO_EXECUCAO} / ${SUITE_CRIADA_EM_TEMPO_EXECUCAO} / ${LOCAL}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-05-30T11:53:02.164004" elapsed="0.004061"/>
+</kw>
+<status status="PASS" start="2026-05-30T11:53:02.141397" elapsed="0.026947"/>
+</kw>
+<status status="PASS" start="2026-05-30T11:53:02.130076" elapsed="0.042719"/>
+</test>
+<doc>Exemplo de escopo de variáveis: GLOBAIS, SUITE, TESTE (test case) e LOCAL (keyword)</doc>
+<status status="FAIL" start="2026-05-30T11:53:01.616171" elapsed="0.646482"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="ExemplosEscoposVariaveis" id="s1" pass="2" fail="1" skip="0">ExemplosEscoposVariaveis</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-05-30T11:53:01.588562" level="WARN">Error in file 'C:\VariaveisEscoposArgumentos\ExemplosEscoposVariaveis.robot' on line 5: Singular section headers like '*** Variable ***' are deprecated. Use plural format like '*** Variables ***' instead.</msg>
+</errors>
+</robot>
