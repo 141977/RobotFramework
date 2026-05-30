@@ -13,6 +13,7 @@ Caso de teste de exemplo 01
 Caso de teste de exemplo 02
     Uma keyword qualquer 02
     Uma keyword qualquer 03
+    Uma keyword qualquer 04
 
 Caso de teste de exemplo 03
     Uma keyword qualquer 04
